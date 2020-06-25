@@ -24,7 +24,7 @@ elif z == "multi":
         print("ERROR: unexpected input")
 elif z == "divide":
     print("There are multiple operations for this option. \nexact - the exact answer \n quo - the quotient ")
-    print("\nrem - the remainder \nboth - the quotient and remainder")
+    print("rem - the remainder \nboth - the quotient and remainder")
     c = str(input("\n> "))
     if c == "exact":
         a = x / y
